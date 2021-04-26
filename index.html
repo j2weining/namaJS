@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>DDT4B</p>
+    <p>CHAI WEI NING</p>
+    <p>First Name</p><input type="text" id="fnama">
+    <p>Last Name</p><input type="text" id="lnama">
+    <button type="button" onclick="papar();">Papar</button>
+    <span id="hasil"></span>
+
+    <script>
+        function papar() {
+            let nama1 = document.getElementById('fnama').value;
+            let nama2 = document.getElementById('lnama').value;
+            document.getElementById('hasil').innerHTML = '<b>Encik <b>' + nama1 +' '+ nama2;
+        }
+    </script>
+</body>
+
+</html>
